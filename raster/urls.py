@@ -1,4 +1,4 @@
-from django.conf.urls import re_path
+from django.urls import re_path
 from raster.views import AlgebraView, ExportView, LegendView
 
 urlpatterns = [
