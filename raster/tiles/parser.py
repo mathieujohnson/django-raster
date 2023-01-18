@@ -20,7 +20,7 @@ from raster.models import RasterLayer, RasterLayerBandMetadata, RasterLayerRepro
 from raster.tiles import utils
 from raster.tiles.const import BATCH_STEP_SIZE, INTERMEDIATE_RASTER_FORMAT, WEB_MERCATOR_SRID, WEB_MERCATOR_TILESIZE
 
-rasterlayers_parser_ended = Signal(providing_args=['instance'])
+rasterlayers_parser_ended = Signal()
 
 
 class RasterLayerParser(object):
